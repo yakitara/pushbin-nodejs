@@ -19,7 +19,7 @@ myRootRef.startAt(Date.now()).on('child_added', function(snapshot) {
         //channels: [''],
         where: { "deviceType": "ios" },
         data: {
-            // p: "/" + snapshot.name(),
+            p: "/" + snapshot.name(),
             alert: snapshot.val()
         }
     };
