@@ -1,0 +1,13 @@
+{
+  "name": "hiroshi-node-firebase",
+  "version": "0.0.1",
+  "dependencies": {
+    "faye-websocket": "*",
+    "kaiseki": "*",
+    "firebase-token-generator": "*"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  }
+}
