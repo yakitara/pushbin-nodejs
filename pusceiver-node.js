@@ -11,6 +11,7 @@ var Kaiseki = require('kaiseki');
 var kaiseki = new Kaiseki(process.env.PARSE_APP_ID, process.env.PARSE_REST_API_KEY);
 
 
+util.debug("pusceiver-node will start");
 // myRootRef.push('Hello from heroku!');
 myRootRef.startAt(Date.now()).on('child_added', function(snapshot) {
     util.debug(snapshot.getPriority() + ":" + snapshot.val());
